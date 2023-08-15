@@ -1,0 +1,37 @@
+#include <stdio.h>
+//Añade paquete de idiomas
+#include <locale.h>
+
+int main (void)
+{
+
+    // Establecer el idioma a español
+    setlocale(LC_ALL, "spanish");
+    
+    printf("						");printf("\x1b[1m\x1b[5mGeneraciones de las Computadoras a lo largo de la historia\x1b[0m\x1b[0m\n\n");
+    
+    printf("   ");printf("\x1b[1m\x1b[5mPrimera Generación (1940-1956):\x1b[0m\x1b[0m\n\n");
+    printf("   ");printf("1.-\x1b[1mVálvulas:\x1b[0m \x1b[2mUtilizaban válvulas de vacío para la lógica y el procesamiento de datos, lo que generaba mucho calor y requería un mantenimiento constante.\x1b[0m\n");
+    printf("   ");printf("2.-\x1b[1mTamaño y Consumo de Energía:\x1b[0m \x1b[2mEran enormes y ocupaban salas enteras debido al tamaño de las válvulas y otros componentes. Además, consumían una canti-\x1b[0m\n");
+    printf("   ");printf("   \x1b[2mdad significativa de energía eléctrica.\x1b[0m\n");
+    printf("   ");printf("3.-\x1b[1mProgramación Manual:\x1b[0m \x1b[2mLa programación se realizaba de manera manual, conectando cables y enchufando tableros perforados para definir las operaciones\x1b[0m\n");
+    printf("   ");printf("   \x1b[2mque la computadora debía realizar.\x1b[0m\n\n");
+    
+    printf("   ");printf("\x1b[1m\x1b[5mSegunda Generación (1956-1963):\x1b[0m\x1b[0m\n\n");
+    printf("   ");printf("1.-\x1b[1mTransistores:\x1b[0m \x1b[2mReemplazaron las válvulas, lo que resultó en computadoras más pequeñas, más confiables y eficientes en términos de energía.\x1b[0m\n");
+    printf("   ");printf("2.-\x1b[1mSistemas de Almacenamiento:\x1b[0m \x1b[2mIntrodujeron sistemas de almacenamiento más avanzados, como cintas magnéticas y discos duros, lo que mejoró la capacidad\x1b[0m\n");
+    printf("   ");printf("   \x1b[2mpara retener y acceder a los datos.\x1b[0m\n");
+    printf("   ");printf("3.-\x1b[1mLenguajes de Programación de Alto Nivel:\x1b[0m \x1b[2mSe desarrollaron lenguajes de programación de alto nivel como Fortran y COBOL, lo que facilitó la programa-\x1b[0m\n");
+    printf("   ");printf("   \x1b[2mción y la creación de software más complejo.\x1b[0m\n\n");
+    
+    printf("   ");printf("\x1b[1m\x1b[5mTercera Generación (1964-1971):\x1b[0m\x1b[0m\n\n");
+    printf("   ");printf("1.-\x1b[1mCircuitos Integrados:\x1b[0m \x1b[2mSe introdujeron los circuitos integrados (chips), lo que permitió una mayor miniaturización de los componentes electrónicos y\x1b[0m\n");
+    printf("   ");printf("   \x1b[2muna mayor eficiencia en el procesamiento.\x1b[0m\n");
+    printf("   ");printf("2.-\x1b[1mMayor Velocidad y Capacidad:\x1b[0m \x1b[2mLas computadoras de esta generación eran más rápidas y podían manejar tareas más complejas debido a la mayor capacidad\n");
+    printf("   ");printf("   \x1b[2mde procesamiento.Sistemas Operativos y Multiprogramación: Surgieron sistemas operativos más avanzados que permitían una gestión más eficiente de los\x1b[0m\n");
+    printf("   ");printf("   \x1b[2mrecursos de la computadora.\x1b[0m\n");
+    printf("   ");printf("3.-\x1b[2mEstas características representan algunas de las diferencias clave entre las primeras generaciones de computadoras y cómo evolucionaron a lo largo\n");
+    printf("   ");printf("   \x1b[2mdel tiempo en términos de tecnología, tamaño y capacidades.\x1b[0m\n");
+    
+    return 0;
+}
